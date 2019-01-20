@@ -5,7 +5,13 @@ How to download issuer's public key:
 ```bash
  ./gradlew clean build execute
 ```
+for windows:
+```bash
+ .\gradlew clean build execute
+```
 3. Certificate should be generated in ./public_tools/issuer_of_short.crt
+
+Comment out Android libraries in case not used
 
 
 Neveřejné veřejné:
